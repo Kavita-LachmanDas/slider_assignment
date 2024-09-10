@@ -237,6 +237,7 @@ input#slide3:checked ~ .dots label:nth-child(3) {
     
       align-content: center;
     }
+   
 }
 
 @media (max-width: 992px) {
@@ -312,7 +313,11 @@ input#slide3:checked ~ .dots label:nth-child(3) {
         display: block;
         cursor: pointer;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-right: 130px;
+    }
+    .dots{
+         margin-right: 90px;
     }
 }
 
